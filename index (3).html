@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+</head>
+<body>
+  
+
+<style >
+
+</style>
+
+<script>
+   var x = prompt("введите x")
+   var y;
+var uAgent=navigator.userAgent;
+ 
+if (uAgent.indexOf("Firefox")>-1) {
+y=(-3)*x+9
+}
+if (uAgent.indexOf("Edge")>-1){
+ y=10*x^2
+}
+if (uAgent.indexOf("Opera")>-1){
+ y=(x^2)-9
+         }
+if (uAgent.indexOf("Chrome")>-1) {
+  y=4*x-1
+}
+      alert(y);
+</script>
+</body>
+</html>
